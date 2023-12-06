@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className={[fontLogo.className]}>Blogg</div>
         </Link>
 
-        <div className="items-center justify-between sm:hidden md:flex md:w-auto order-1 ">
+        <div className="items-center justify-between hidden md:flex md:w-auto order-1 ">
           <ul className="flex flex-col p-2 md:p-0 mt-2 font-medium border-gray-100 rounded-sm md:flex-row md:mt-0 md:border-0 md:bg-transparent">
             <li>
               <Link href="/" className=" px-2 text-slate-900 items-center flex">
