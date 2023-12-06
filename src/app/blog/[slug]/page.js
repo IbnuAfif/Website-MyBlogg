@@ -33,7 +33,7 @@ export default async function Page({ params }) {
         </div>
       </section>
 
-      <section className="my-5 grid justify-center sm:mx-4 mx-44">
+      <section className="my-5 grid justify-center mx-4 md:mx-44">
         {fields.body.content.map((contentPart, index) => (
           <div className="text-justify mb-4" key={`documentPart-${index}`}>
             {contentPart.content[0].value}
